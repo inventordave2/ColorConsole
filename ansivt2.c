@@ -134,67 +134,67 @@ void swap4color( char * fg, char * bg )	{
 		goto _bg;
 	
 	if( !strcmp( fg, "black" ) )	{
-		strcpy( fg, "[30m" );
+		strcpy( fg, FG_BLACK );
 		goto _bg;
 	}
 	if( !strcmp( fg, "red" ) )	{
-		strcpy( fg, "[31m" );
+		strcpy( fg, FG_RED );
 		goto _bg;
 	}
 	if( !strcmp( fg, "green" ) )	{
-		strcpy( fg, "[32m" );
+		strcpy( fg, FG_GREEN );
 		goto _bg;
 	}
 	if( !strcmp( fg, "yellow" ) )	{
-		strcpy( fg, "[33m" );
+		strcpy( fg, FG_YELLOW );
 		goto _bg;
 	}
 	if( !strcmp( fg, "blue" ) )	{
-		strcpy( fg, "[34m" );
+		strcpy( fg, FG_BLUE );
 		goto _bg;
 	}
 	if( !strcmp( fg, "magenta" ) )	{
-		strcpy( fg, "[35m" );
+		strcpy( fg, FG_MAGENTA );
 		goto _bg;
 	}
 	if( !strcmp( fg, "cyan" ) )	{
-		strcpy( fg, "[36m" );
+		strcpy( fg, FG_CYAN );
 		goto _bg;
 	}
 	if( !strcmp( fg, "white" ) )	{
-		strcpy( fg, "[37m" );
+		strcpy( fg, FG_WHITE );
 		goto _bg;
 	}
 	if( !strcmp( fg, "bright_black" ) )	{
-		strcpy( fg, "[90m" );
+		strcpy( fg, FG_BRIGHT_BLACK );
 		goto _bg;
 	}
 	if( !strcmp( fg, "bright_red" ) )	{
-		strcpy( fg, "[91m" );
+		strcpy( fg, FG_BRIGHT_RED );
 		goto _bg;
 	}
 	if( !strcmp( fg, "bright_green" ) )	{
-		strcpy( fg, "[92m" );
+		strcpy( fg, FG_BRIGHT_GREEN );
 		goto _bg;
 	}
 	if( !strcmp( fg, "bright_yellow" ) )	{
-		strcpy( fg, "[93m" );
+		strcpy( fg, FG_BRIGHT_YELLOW );
 		goto _bg;
 	}
 	if( !strcmp( fg, "bright_blue" ) )	{
-		strcpy( fg, "[94m" );
+		strcpy( fg, FG_BRIGHT_BLUE );
 		goto _bg;
 	}
 	if( !strcmp( fg, "bright_magenta" ) )	{
-		strcpy( fg, "[95m" );
+		strcpy( fg, FG_BRIGHT_MAGENTA );
 		goto _bg;
 	}
 	if( !strcmp( fg, "bright_cyan" ) )	{
-		strcpy( fg, "[96m" );
+		strcpy( fg, FG_BRIGHT_CYAN );
 		goto _bg;
 	}
 	if( !strcmp( fg, "bright_white" ) )	{
-		strcpy( fg, "[97m" );
+		strcpy( fg, FG_BRIGHT_WHITE );
 		goto _bg;
 	}
 
@@ -208,67 +208,67 @@ void swap4color( char * fg, char * bg )	{
 	}
 	
 	if( !strcmp( bg, "black" ) )	{
-		strcpy( bg, "[40m" );
+		strcpy( bg, BG_BLACK );
 
 	}
 	if( !strcmp( bg, "red" ) )	{
-		strcpy( bg, "[41m" );
+		strcpy( bg, BG_RED );
 		
 	}
 	if( !strcmp( bg, "green" ) )	{
-		strcpy( bg, "[42m" );
+		strcpy( bg, BG_GREEN );
 		
 	}
 	if( !strcmp( bg, "yellow" ) )	{
-		strcpy( bg, "[44m" );
+		strcpy( bg, BG_YELLOW );
 		
 	}
 	if( !strcmp( bg, "blue" ) )	{
-		strcpy( bg, "[44m" );
+		strcpy( bg, BG_BLUE );
 		
 	}
 	if( !strcmp( bg, "magenta" ) )	{
-		strcpy( bg, "[45m" );
+		strcpy( bg, BG_MAGENTA );
 		
 	}
 	if( !strcmp( bg, "cyan" ) )	{
-		strcpy( bg, "[46m" );
+		strcpy( bg, BG_CYAN );
 		
 	}
 	if( !strcmp( bg, "white" ) )	{
-		strcpy( bg, "[47m" );
+		strcpy( bg, BG_WHITE );
 		
 	}
 	if( !strcmp( bg, "bright_black" ) )	{
-		strcpy( bg, "[100m" );
+		strcpy( bg, BG_BRIGHT_BLACK );
 		
 	}
 	if( !strcmp( bg, "bright_red" ) )	{
-		strcpy( bg, "[101m" );
+		strcpy( bg, BG_BRIGHT_RED );
 		
 	}
 	if( !strcmp( bg, "bright_green" ) )	{
-		strcpy( bg, "[102m" );
+		strcpy( bg, BG_BRIGHT_GREEN );
 	
 	}
 	if( !strcmp( bg, "bright_yellow" ) )	{
-		strcpy( bg, "[103m" );
+		strcpy( bg, BG_BRIGHT_YELLOW );
 	
 	}
 	if( !strcmp( bg, "bright_blue" ) )	{
-		strcpy( bg, "[104m" );
+		strcpy( bg, BG_BRIGHT_BLUE );
 		
 	}
 	if( !strcmp( bg, "bright_magenta" ) )	{
-		strcpy( bg, "[105m" );
+		strcpy( bg, BG_BRIGHT_MAGENTA );
 		
 	}
 	if( !strcmp( bg, "bright_cyan" ) )	{
-		strcpy( bg, "[106m" );
+		strcpy( bg, BG_BRIGHT_CYAN );
 		
 	}
 	if( !strcmp( bg, "bright_white" ) )	{
-		strcpy( bg, "[107m" );
+		strcpy( bg, BG_BRIGHT_WHITE );
 		
 	}
 	
